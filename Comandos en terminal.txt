@@ -1,0 +1,6 @@
+set FLASK_APP=market.py
+set FLASK_DEBUG=1
+
+---Generador de clave---
+import os
+os.urandom(12).hex()
